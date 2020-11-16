@@ -7,6 +7,12 @@ import java.util.Scanner;
 
 public static void main(String[] args) {
 
+static void brunoMethod() {
+
+/**
+*Author: Bruno
+*/
+
 {
 
 Scanner myKB = new Scanner(System.in);
@@ -52,5 +58,7 @@ try {
   }
   
     }
+
+}
 
 }
