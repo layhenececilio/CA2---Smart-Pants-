@@ -6,6 +6,7 @@ Java codeteam work
  * @author Awa
  */
  
+ 
  try {
             
             BufferedReader myKB2 = new BufferedReader(new InputStreamReader(System.in));
