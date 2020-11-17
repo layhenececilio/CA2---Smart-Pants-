@@ -1,13 +1,22 @@
 # CA2/Smart-Pants
 Java codeteam work
 
-/**
- *
- * @author Awa
- */
+
  
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class CA2TimeTask {
+    static void AwaMethod(){
+    /**
+     * author: Awa
+     */
+        System.out.println("This is Awa code.");
+    }
  
- try {
+ public static void main(String[] args) {
+ 
+    try {
             
             BufferedReader myKB2 = new BufferedReader(new InputStreamReader(System.in));
             
@@ -31,3 +40,4 @@ Java codeteam work
         catch (Exception e){
             System.out.println("Erro! \n");
         }
+}
