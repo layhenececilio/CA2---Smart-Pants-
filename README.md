@@ -2,7 +2,7 @@
 Java codeteam work
 
 
- 
+package CA2TimeTask;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -13,6 +13,7 @@ public class CA2TimeTask {
      */
         System.out.println("This is Awa code.");
     }
+ 
  
  public static void main(String[] args) {
  
