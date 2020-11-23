@@ -1,0 +1,58 @@
+package leilamethod;
+
+import java.util.Scanner;
+
+/**
+ *Program that asks and checks the user age 
+ * @author leila
+ */
+public class LeilaMethod {
+    
+    static void leilaMethod (){
+        
+         int userAge;
+        Scanner ageScanner = new Scanner (System.in);   //Opening the Scanner to scan the input from the user
+        
+        System.out.println("Please enter your age");    //Asks user to type their age 
+         
+        try{
+            userAge = ageScanner.nextInt(); // Gets the age entered
+                
+            String personAge = Integer.toString(userAge); //Converting int into a String
+            
+            if (!personAge.matches("[0-9 ]+")) {  //It returns false if the number is a negative one 
+           
+               System.out.println("The 'Age' is not a positive number " + personAge.matches("[0-9 ]+"));
+                
+             
+                //Checking if the user is under the age of 18 years old
+            }else if (userAge < 18) {
+                System.out.println("You are still very strong");
+            
+                //Checking if the user is over 18 and under 66 years old
+            }else if((userAge >= 18) && (userAge < 66)){
+                System.out.println("You hold the world on your hands!");
+            
+                //Checking if the user is over 66 and under 100 years old
+                //100 is the maximum age set because the user might type something like 453 as their age
+            }else if ((userAge >= 66) && (userAge <= 100)){
+                System.out.println("You deserve to have fun!");
+            
+            }else{
+                System.out.println("You are a Legend");
+            }   //Out put the age of the user
+            
+        }catch(Exception e){
+            System.out.println("That was not a number! Please enter a number!");
+        }
+    }
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        leilaMethod();
+    }
+    
+}
