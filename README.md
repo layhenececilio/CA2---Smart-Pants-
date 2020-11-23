@@ -4,8 +4,8 @@ Java codeteam work
 
 package CA2TimeTask;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+    import java.io.BufferedReader;
+    import java.io.InputStreamReader;
 
 
 public class CA2TimeTask {
@@ -15,16 +15,13 @@ public class CA2TimeTask {
      * author: Awa
      */
         System.out.println("This is Awa code.");
-}
+    }
 
-
-
-    /**
-     * Ask the user for two numbers and then calculate the result of DIVIDING the first number by the second number.
-     */
  
  
  public static void main(String[] args) {
+ 
+    //Ask the user for two numbers and then calculate the result of DIVIDING the first number by the second number.
  
     try {
             
