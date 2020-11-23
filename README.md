@@ -10,16 +10,18 @@ import java.io.InputStreamReader;
 
 public class CA2TimeTask {
     static void AwaMethod(){
+    
     /**
      * author: Awa
      */
         System.out.println("This is Awa code.");
-    }
+}
 
 
-/**
-* Ask the user for two numbers and then calculate the result of DIVIDING the first number by the second number.
-*/
+
+    /**
+     * Ask the user for two numbers and then calculate the result of DIVIDING the first number by the second number.
+     */
  
  
  public static void main(String[] args) {
