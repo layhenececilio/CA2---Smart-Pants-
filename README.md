@@ -15,6 +15,11 @@ public class CA2TimeTask {
      */
         System.out.println("This is Awa code.");
     }
+
+
+/**
+* Ask the user for two numbers and then calculate the result of DIVIDING the first number by the second number.
+*/
  
  
  public static void main(String[] args) {
