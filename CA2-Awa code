@@ -7,7 +7,7 @@ package CA2TimeTaskWhoAreYou;
 import java.util.Scanner;
 
 
-public class MethodsExercise {
+public class AwaMethod {
     static void AwaMethod(){
     /**
      * author: Awa
