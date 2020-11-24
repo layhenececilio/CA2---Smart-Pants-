@@ -1,3 +1,10 @@
+
+package ca2layhene;
+import java.util.*;
+/**
+ *
+ * @author layhenececilio
+ */
 public class CA2Layhene {
     static void Layhene() {
         /**author:L. Prado
@@ -13,9 +20,20 @@ public class CA2Layhene {
     public static void main(String[] args) {
         
         Layhene();
-            int n1 = 25;    // I prefer to creat 2 int so if the user of the code wants to change for a specific sum it's more flexible.
-            int n2 = 85;
-                System.out.println("The sum of " + n1 + " and " + n2 + " = " + (n1+n2));
+      
+        Scanner grades = new Scanner(System.in);
+        
+        System.out.println("Insert Github Points: ");
+         int github = grades.nextInt();
+        System.out.println("Insert Slack Points: ");
+         int slack = grades.nextInt();  
+        System.out.println("Insert Report Points:");
+        int report = grades.nextInt();
+        
+        int result = (github + slack + report)/4;
+        System.out.println("The Group Final Grade is: " + result + "%");
+            
+        
     }
     
 }
