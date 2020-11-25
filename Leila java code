@@ -3,7 +3,7 @@ package leilamethod;
 import java.util.Scanner;
 
 /**
- *Program that asks and checks the user age 
+ *Program that asks and checks the user age and outputs a message to the user 
  * @author leila
  */
 public class LeilaMethod {
