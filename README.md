@@ -307,21 +307,6 @@ public class CA2Layhene {
     /**
      * @param args the command line arguments
      */
-
-    public static void main(String[] args) {
-        // TODO code application logic here
-     Scanner myKB = new Scanner (System.in);
-     
-     String input;
-     
-        System.out.println("Please enter some text");
-        
-        input = myKB.nextLine();
-        
-        System.out.println("You entered " + input);
-    }
-    
-
      
     public static void main(String[] args) {
         
