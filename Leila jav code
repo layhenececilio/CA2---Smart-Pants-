@@ -53,6 +53,6 @@ public class LeilaMethod {
     public static void main(String[] args) {
         
         leilaMethod();
-    }
     
+    }
 }
